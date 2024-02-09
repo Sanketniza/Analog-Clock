@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog clock working</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+      
+     <div class="clock">
+        <div id="time">
+
+            <div class="circle" style="--cir:#ff2972">
+                <div class="dots sec_dot">
+                     <svg>
+                          <circle cx="120" cy="120" r="120" id="ss"></circle>
+                     </svg>
+                </div>
+            </div>
+
+            <div class="circle" style="--cir:#fee800">
+                <div class="dots min_dot">
+                     <svg>
+                          <circle cx="100" cy="100" r="100" id="mm"></circle>
+                     </svg>
+                </div>
+            </div>
+
+            <div class="circle" style="--cir:#04fc43">
+                <div class="dots hr_dot">
+                     <svg>
+                          <circle cx="80" cy="80" r="80" id="hh"></circle>
+                     </svg>
+                </div>
+            </div>
+
+<div class="niddles" style="--cir2:#ff2972;"id="sc"><i></i></div>
+<div class="niddles niddle2" style="--cir2:#fee800;"id="mn"><i></i></div>
+<div class="niddles niddle3" style="--cir2:#04fc43;" id="hr"><i></i></div>
+
+
+
+        </div>
+     </div>
+     
+
+    <script src="clock.js"></script>
+</body>
+</html>
